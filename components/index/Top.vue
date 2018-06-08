@@ -13,7 +13,7 @@
           Cybelien
         </h1>
         <h2 class="subtitle">
-          Coworking-space
+          Coworking-space in Tsukuba
         </h2>
       </div>
     </div>
@@ -21,7 +21,8 @@
 </template>
 
 <style scoped>
-  #top{
+  .container{
     margin-top:52px;
+    padding-bottom:1.0rem;
   }
 </style>

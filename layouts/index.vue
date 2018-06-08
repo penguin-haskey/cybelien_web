@@ -5,6 +5,7 @@
     <plan/>
     <hours/>
     <facility/>
+    <access/>
     <nuxt/>
     <bottom/>
   </div>
@@ -16,6 +17,7 @@
   import Plan from '~/components/index/Plan.vue'
   import Hours from '~/components/index/Hours.vue'
   import Facility from '~/components/index/Facility.vue'
+  import Access from '~/components/index/Access.vue'
   import Bottom from '~/components/Bottom.vue'
 
   export default {
@@ -25,6 +27,7 @@
       Plan,
       Hours,
       Facility,
+      Access,
       Bottom
     }
   }

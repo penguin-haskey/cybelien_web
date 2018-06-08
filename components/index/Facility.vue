@@ -4,16 +4,24 @@
     class="section"
   >
     <div class="container">
-      <h1 class="title">設備</h1>
-      <h2 class="subtitle">
-        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-      </h2>
+      <div class="content">
+        <h1 class="title">設備</h1>
+        <ul>
+          <li>電源ホワイトボード</li>
+          <li>プロジェクター</li>
+          <li>専門書</li>
+          <li>ドリンク</li>
+          <li>ミニキッチン</li>
+          <li>Wi-Fi</li>
+        </ul>
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-  #facility{
-    margin-top:52px;
+  .container{
+    padding-top:1.0rem;
+    padding-bottom:1.0rem;
   }
 </style>

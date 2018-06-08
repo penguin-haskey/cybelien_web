@@ -33,13 +33,15 @@
         <a
           href="#plan"
           class="navbar-item"
+          @click="$store.commit('toggleMenu')"
         >
-          Plan
+          Price
         </a>
         
         <a
           href="#hours"
           class="navbar-item"
+          @click="$store.commit('toggleMenu')"
         >
           Hours
         </a>
@@ -47,8 +49,17 @@
         <a
           href="#facility"
           class="navbar-item"
+          @click="$store.commit('toggleMenu')"
         >
-          facility
+          Facility
+        </a>
+
+        <a
+          href="#access"
+          class="navbar-item"
+          @click="$store.commit('toggleMenu')"
+        >
+          Access
         </a>
       </div>
     </div><!-- navbar-menu END -->
