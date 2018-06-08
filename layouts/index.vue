@@ -1,22 +1,33 @@
 <template>
   <div>
     <navbar/>
-    <title/>
+    <top/>
     <plan/>
     <hours/>
     <facility/>
     <nuxt/>
+    <bottom/>
   </div>
 </template>
 
 <script>
-import Navbar from '~/components/Navbar.vue'
+  import Navbar from '~/components/Navbar.vue'
+  import Top from '~/components/index/Top.vue'
+  import Plan from '~/components/index/Plan.vue'
+  import Hours from '~/components/index/Hours.vue'
+  import Facility from '~/components/index/Facility.vue'
+  import Bottom from '~/components/Bottom.vue'
 
-export default {
-  components: {
-    Navbar
+  export default {
+    components: {
+      Navbar,
+      Top,
+      Plan,
+      Hours,
+      Facility,
+      Bottom
+    }
   }
-}
 </script>
 
 <style>

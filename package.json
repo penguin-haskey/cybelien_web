@@ -8,12 +8,14 @@
     "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.8",
     "@nuxtjs/sentry": "^1.0.3",
+    "buefy": "^0.6.6",
     "front-matter": "^2.3.0",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
     "markdown-it-link-attributes": "^2.0.0",
     "noty": "^3.2.0-beta",
     "nuxt": "npm:nuxt-edge",
+    "nuxt-buefy": "^0.0.4",
     "nuxt-sass-resources-loader": "^2.0.0",
     "nuxtent": "^1.4.1",
     "rss": "^1.2.2",
@@ -86,6 +88,6 @@
     "textlint-rule-preset-jtf-style": "^2.3.1",
     "textlint-rule-prh": "^5.0.1",
     "textlint-rule-sentence-length": "^2.0.2",
-"textlint-rule-spellcheck-tech-word": "^5.0.0"
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
