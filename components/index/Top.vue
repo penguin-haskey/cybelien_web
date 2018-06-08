@@ -1,7 +1,7 @@
 <template>
   <section
     id="top"
-    class="hero is-light is-medium"
+    class="hero has-background-grey-lighter is-medium"
   >
     <div
       class="hero-body"

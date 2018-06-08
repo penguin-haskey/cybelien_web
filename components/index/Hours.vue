@@ -1,7 +1,7 @@
 <template>
   <section
     id="hours"
-    class="section has-background-grey-lighter"
+    class="section has-background-light"
   >
     <div class="container">
       <h1 class="title">営業時間</h1>
